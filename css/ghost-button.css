@@ -1,0 +1,64 @@
+.ghost-button-full-color {
+  display: inline-block;
+  width: 300px;
+  height:60px;
+  padding: 12px;
+  color: #323a45;
+  background-color: transparent;
+  border: 2px solid #88D5B5;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.ghost-button-full-color:hover,
+.ghost-button-full-color:active {
+  background-color: #88D5B5;
+  border-color: #88D5B5;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 180px;
+  padding: 8px;
+  color: #323a45;
+  background-color: transparent;
+  border: 1px solid #88D5B5;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #88D5B5;
+  color: #fff;
+}
+
+.ghost-box-full-color{
+  width: 600px;
+  padding: 12px;
+  color: #323a45;
+  background-color: transparent;
+  border: 2px solid #88D5B5;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.ghost-box-full-color:hover,
+.ghost-box-full-color:active {
+  background-color: #88D5B5;
+  border-color: #88D5B5;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
